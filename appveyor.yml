@@ -32,7 +32,6 @@ cache:
 
 install:
   - ps: Enable-PSRemoting -Force
-  - ps: Set-ExecutionPolicy RemoteSigned
   - winrm quickconfig -q
   - winrm set winrm/config/client @{TrustedHosts="*"}
   - winrm set winrm/config/client/auth @{Basic="true"}
