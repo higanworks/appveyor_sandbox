@@ -22,13 +22,13 @@ clone_depth: 5
 
 cache:
   - C:\Ruby193\lib\ruby\gems\1.9.1 -> appveyor.yml
-  - C:\Ruby193\bin -> appveyor.yml
+  - C:\Ruby193\bin                 -> appveyor.yml
   - C:\Ruby200\lib\ruby\gems\2.0.0 -> appveyor.yml
-  - C:\Ruby200\bin -> appveyor.yml
-  - C:\Ruby21\lib\ruby\gems\2.1.0 -> appveyor.yml
-  - C:\Ruby21\bin -> appveyor.yml
-  - C:\Ruby22\lib\ruby\gems\2.2.0 -> appveyor.yml
-  - C:\Ruby22\bin -> appveyor.yml
+  - C:\Ruby200\bin                 -> appveyor.yml
+  - C:\Ruby21\lib\ruby\gems\2.1.0  -> appveyor.yml
+  - C:\Ruby21\bin                  -> appveyor.yml
+  - C:\Ruby22\lib\ruby\gems\2.2.0  -> appveyor.yml
+  - C:\Ruby22\bin                  -> appveyor.yml
 
 install:
   - ps: Enable-PSRemoting -Force
